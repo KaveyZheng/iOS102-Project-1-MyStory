@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import UIKit
+
+struct Person {
+    let name: String
+    let age: Int
+    
+    let college: String
+    let collegeImage: UIImage
+    
+    let highschool: String
+    let highschoolImage: UIImage
+    
+    let year: String
+    let major: String
+}

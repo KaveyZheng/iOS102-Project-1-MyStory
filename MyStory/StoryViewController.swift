@@ -9,10 +9,26 @@ import UIKit
 
 class StoryViewController: UIViewController {
 
+    var person: Person?
+    
+    @IBOutlet weak var collegeImageView: UIImageView!
+    @IBOutlet weak var highschoolImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var majorLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let person = person {
+            collegeImageView.image = person.collegeImage
+            highschoolImageView.image = person.highschoolImage
+            
+            nameLabel.text = "Hi, my name is \(person.name)"
+            ageLabel.text = "I am \(person.age) years old"
+            majorLabel.text = "I am a \(person.year) studying \(person.major)"
+        }
     }
     
 

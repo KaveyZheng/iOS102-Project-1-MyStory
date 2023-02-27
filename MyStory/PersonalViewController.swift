@@ -9,12 +9,25 @@ import UIKit
 
 class PersonalViewController: UIViewController {
 
+    var person: Person?
+    
+    @IBOutlet weak var UIImage1: UIImageView!
+    @IBOutlet weak var UIImage2: UIImageView!
+    @IBOutlet weak var UIImage3: UIImageView!
+    @IBOutlet weak var UIImage4: UIImageView!
+    @IBOutlet weak var UIImage5: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        UIImage1.image = UIImage(named: "store")
+        UIImage2.image = UIImage(named: "peephole")
+        UIImage3.image = UIImage(named: "scrapbook")
+        UIImage4.image = UIImage(named: "graduation")
+        UIImage5.image = UIImage(named: "group")
+        
     }
-    
 
     /*
     // MARK: - Navigation
