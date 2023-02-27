@@ -23,16 +23,15 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<title='Video Walkthrough'>
 ![MyStory](https://user-images.githubusercontent.com/109322859/221704026-0a9c6df9-5f8a-444c-a9ea-55ac287838bc.gif)
 
-
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+- Implementing AutoLayout for all screens
 
 ## License
 
