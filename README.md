@@ -22,8 +22,6 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<title='Video Walkthrough'>
 ![MyStory](https://user-images.githubusercontent.com/109322859/221704026-0a9c6df9-5f8a-444c-a9ea-55ac287838bc.gif)
 
 GIF created with LICEcap
