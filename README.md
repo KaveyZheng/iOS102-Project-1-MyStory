@@ -2,8 +2,6 @@
 
 Submitted by: **Kavey Zheng**
 
-**MyStory** is an app that introduces ...
-
 Time spent: **10** hours spent in total
 
 ## Required Features
@@ -20,8 +18,6 @@ The following **optional** features are implemented:
 - [x] Improve and customize the user interface through styling and coloring
 
 ## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
 ![MyStory](https://user-images.githubusercontent.com/109322859/221704026-0a9c6df9-5f8a-444c-a9ea-55ac287838bc.gif)
 
 GIF created with LICEcap
